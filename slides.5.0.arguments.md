@@ -12,6 +12,23 @@ layout: center
 
 ---
 
+public output method(parameter){}
+
+```mermaid {scale: 1}
+flowchart LR
+    Parameter-->Method
+    Method-->Output
+```
+
+public void method(inputParameter, outputParameter){}
+```mermaid {scale: 1}
+flowchart LR
+    InputParameter-->Method
+    Method-->outputParameter
+```
+
+---
+
 # 1. Monadic Function
 
 ---

@@ -10,9 +10,15 @@ layout: center
 
 ## A function should only do one thing
 
-<br>
 
-> something
+- [public EditableResourceBundle getBundleForEditing(String name, Locale loc)](https://kingland.atlassian.net/wiki/spaces/~fralv%40ksd.kingland.cc/pages/123241624/Clean+Code+-+Function)
+
+
+<!-- 
+大家觉着我们重构后的代码，每个函数是只做了一件事情么。可以思考一下。。。
+
+那怎么衡量，我们的一个函数是否只做了一件事情呢。
+-->
 
 ---
 
@@ -28,8 +34,29 @@ layout: center
 
 ---
 
-# Bad Example 1
+# Sample - getBundleForEditing
+<br>
+<br>
+<br>
 
----
+```mermaid {scale: 0.45}
+flowchart TB
 
-# Good Example 1
+    getBundleForEditing-->searchDevelopmentResourceBundleForEditing
+    getBundleForEditing-->includeDefaultResourceBundleForEditing
+    getBundleForEditing-->prepareDefaultResourceBundleForEditing
+
+    searchDevelopmentResourceBundleForEditing-->availableBundleFileNames
+    searchDevelopmentResourceBundleForEditing-->searchDevelopmentResourceBundle
+
+    includeDefaultResourceBundleForEditing-->saveDefaultEntityIntoDevelopmentFile
+    includeDefaultResourceBundleForEditing-->saveDefaultResourceBundleIntoDevelopmentFile
+
+    prepareDefaultResourceBundleForEditing-->generateDevelopmentEntityFile
+    prepareDefaultResourceBundleForEditing-->generateDevelopmentResourceBundleFile
+
+```
+
+<!--
+    结合sample codes和结构图， 来一起看看实现的 Do one thing
+-->

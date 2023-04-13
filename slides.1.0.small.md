@@ -12,15 +12,8 @@ layout: center
 -->
 ---
 
-# Bad Example 1
+# Sample
 
-```ts {}
-test
-```
+<br>
 
----
-
-# Good Example 1
-```ts {}
-test
-```
+- [public EditableResourceBundle getBundleForEditing(String name, Locale loc)](https://kingland.atlassian.net/wiki/spaces/~fralv%40ksd.kingland.cc/pages/123241624/Clean+Code+-+Function)
