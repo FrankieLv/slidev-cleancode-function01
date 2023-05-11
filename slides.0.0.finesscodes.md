@@ -76,16 +76,31 @@ SetupPages()方法里， 将teardown和suitteardown page的相关操作都重新
 layout: center
 ---
 
-# How can we make a function communicate its intent？
+## How can we make a function communicate its intent？
 
 <br>
 
-# What attributes can help on this?
+## What attributes can help on this?
 
+<!-- 
+- 那么我们怎么能让函数方法清晰的表达它的意图
+- 有什么样的属性可以帮助我们呢
+-->
+---
+layout: center
 ---
 
-# Agendas
 - Rule 1: Small
 - Rule 2: Do one thing
 - Rule 3: One Level of Abstraction per Function
 - Rule 4: Descriptive Function Name
+
+
+Notes on reading:
+- https://fluff-clam-4e7.notion.site/Clean-Code-0da06128f4a84954bdbf29f1a0767c3c
+
+<!-- 
+- 这是我们今天要讲的主要内容，small ***
+- 这只是第三章的一部分内容， 第三章内容理解起来还是需要好好花点时间的，我们一步一步来
+- 同样提供了个人的读书笔记，快餐版， 建议是在已经读完书后有一定的理解后，再想快速浏览使用，而不是只看这个笔记，不读书。 快餐版是无法代替你在读书过程中自己的体会的。
+-->
