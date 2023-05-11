@@ -13,7 +13,7 @@ layout: center
 -->
 ---
 
-<img src="/images/Listing 3-3.PNG" class="m-1 h-40 rounded shadow" />
+<img src="/images/Listing3-3.PNG" class="m-1 h-40 rounded shadow" />
 
 - new method: includeSetupAndTeardownPage()
 

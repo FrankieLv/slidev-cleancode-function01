@@ -59,7 +59,7 @@ flowchart TB
 
 ---
 
-<img src="/images/Listing 3-2.PNG" class="m-1 h-60 rounded shadow" />
+<img src="/images/Listing3-2.PNG" class="m-1 h-60 rounded shadow" />
 
 - method name: testableHtml(PageData pageData) => renderPageWithSetupsAndTeardowns(PageData pageData)
 - Only 3 steps to explain clearly what to do

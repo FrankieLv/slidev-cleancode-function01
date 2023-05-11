@@ -10,7 +10,7 @@ layout: center
 
 ## What "one thing" is ?
 
-<img src="/images/Listing 3-3.PNG" class="m-1 h-40 rounded shadow" />
+<img src="/images/Listing3-3.PNG" class="m-1 h-40 rounded shadow" />
 
 <!--
 书中举出的例子是在最后重构好的代码中， 它有三个步骤：
