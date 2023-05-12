@@ -16,6 +16,9 @@ layout: center
 <img src="/images/Listing33.png" class="m-1 h-40 rounded shadow" />
 
 - new method: includeSetupAndTeardownPage()
+    - includeSetupPages()
+    - newPageContent.append(pageData.getContent())
+    - includeTeardownPages()
 
 <!--
 1. 作者在书中又对之前已经重构过的代码，又进一步地重构了一版。 将具体include setup和teardown的操作都封装到一个"includeSetupAndTeardownPage"方法中，最后这个方法只有4行代码，只有两层缩进。

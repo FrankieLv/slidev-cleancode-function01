@@ -33,8 +33,8 @@ flowchart TB
     subgraph "HtmlUtil.java"
 
     subgraph Process
-    includeTestSetupPage-->includeCurrentHtmlPage
-    includeCurrentHtmlPage-->includeTestTearDownPage
+    includeTestSetupPages-->includeCurrentHtmlPage
+    includeCurrentHtmlPage-->includeTestTearDownPages
     end
 
     HtmlPage==>Process
